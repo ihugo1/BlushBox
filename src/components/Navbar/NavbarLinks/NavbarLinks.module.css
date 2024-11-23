@@ -9,5 +9,32 @@
     font-size: var(--font-xs);
     margin-left: var(--space-xl);
     display: flex;
+    transition: all 0.5s ease;
+  }
+  .navbar-link:hover{
+    color: var(--primary);
+    cursor: pointer;
+  }
+  .toggle-button{
+    color: var(--white);
+    font-size: var(--font-m);
+    margin-left: var(--space-xl);
+    display: none;
+    transition: all 0.5s ease;
+  }
+}
+
+/*-------------------------------------------------------
+# Responsive
+---------------------------------------------------------*/
+
+@media (max-width: 768px) {
+  .navbar-links{
+    .navbar-link{
+      display: none;
+    }
+    .toggle-button{
+      display: flex;
+    }
   }
 }

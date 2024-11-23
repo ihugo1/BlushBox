@@ -44,7 +44,8 @@ button{
   # Colors
   ---------------------------------------------------------*/
   --transparent: #ffffff00;
-  --primary: #ad1762;
-  --white: #e7d5de;
+  --primary: #be0f67;
+  --primary-accent: #d81577;
+  --white: #f5e3ec;
 }
 
