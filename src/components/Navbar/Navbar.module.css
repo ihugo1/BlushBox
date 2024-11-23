@@ -1,0 +1,20 @@
+.navbar{
+  position: fixed;
+  z-index: 10;
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: var(--space-m);
+  background-color: var(--transparent);
+  .navbar-left{
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+  }
+  .navbar-right{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+  }
+}

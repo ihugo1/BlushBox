@@ -1,0 +1,13 @@
+.navbar-links{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 75%;
+  height: 100%;
+  .navbar-link{
+    color: var(--white);
+    font-size: var(--font-xs);
+    margin-left: var(--space-xl);
+    display: flex;
+  }
+}

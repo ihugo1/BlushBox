@@ -1,0 +1,14 @@
+.logo{
+  display: flex;
+  align-items: center;
+  .part-a{
+    font-size: var(--font-m);
+    color: var(--white);
+    font-weight: 200;
+  }
+  .part-b{
+    font-size: var(--font-m);
+    color: var(--primary);
+    font-weight: 700;
+  }
+}
